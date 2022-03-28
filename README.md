@@ -1,2 +1,3 @@
-# sugoku
-Sugoku game
+# Sugoku
+
+## Sugoku game.

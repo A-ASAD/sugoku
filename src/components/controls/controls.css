@@ -1,0 +1,46 @@
+.controls .actions1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.controls .difficulty-control{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.controls h5 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 15px;
+    text-align: end;
+}
+
+.controls button {
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+    flex-grow: 1;
+}
+
+.controls button:hover {
+    background-color: #eee;
+}
+
+.controls .actions1 > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.controls .actions2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}

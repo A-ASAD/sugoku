@@ -1,0 +1,20 @@
+.difficulty {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px !important;
+}
+
+.difficulty h4 {
+    margin: 0;
+}
+
+.difficulty select {
+    flex-grow: 1;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}

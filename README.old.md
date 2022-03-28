@@ -1,0 +1,2 @@
+# sugoku
+Sugoku game
