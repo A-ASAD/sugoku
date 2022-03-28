@@ -12,7 +12,7 @@ function renderComponent() {
     );
 }
 
-test('clicking on claer button should clear the puzzle', async () => {
+test('clicking on claer button should clear the puzzle', () => {
     renderComponent();
     userEvent.click(screen.getByText('Clear'));
     screen.getAllByRole('textbox').forEach(textbox => {
