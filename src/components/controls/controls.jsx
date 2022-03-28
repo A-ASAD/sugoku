@@ -24,11 +24,11 @@ export default function Controls() {
             <div className='actions1'>
                 <div>
                     <button className='button' onClick={() => validate(board, status, dispatch)}>Validate</button>
-                    <h5>{status}</h5>
+                    <h5 data-testid='status'>{status}</h5>
                 </div>
                 <div>
                     <button onClick={() => checkDifficulty(board, currentDifficulty, dispatch)}>Check Difficulty</button>
-                    <h5>{currentDifficulty}</h5>
+                    <h5 data-testid='current-difficulty'>{currentDifficulty}</h5>
                 </div>
             </div>
             <div className='actions2'>
